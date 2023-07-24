@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+#prompt {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#startButton {
+  margin-top: 20px;
+  font-family: "Arial", sans-serif; /* Change the font family to your desired font */
+  font-size: 18px; /* Change the font size as needed */
+  background-color: #007bff; /* Change the background color */
+  color: #ffffff; /* Change the text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#startButton:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
